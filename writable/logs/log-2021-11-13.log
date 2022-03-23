@@ -1,0 +1,988 @@
+CRITICAL - 2021-11-13 10:45:52 --> Invalid file: modals/editUserModal.php
+#0 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('modals/editUser...')
+#1 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\View\View.php(487): CodeIgniter\View\View->render('modals/editUser...', NULL, true)
+#2 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\app\Views\dashboard\users.php(75): CodeIgniter\View\View->include('modals/editUser...')
+#3 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Common.php(1271): CodeIgniter\View\View->render('dashboard/users', Array, true)
+#6 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\app\Controllers\AdminController.php(26): view('dashboard/users', Array)
+#7 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(928): App\Controllers\AdminController->users()
+#8 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#9 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2021-11-13 11:12:25 --> Column 'first_name' cannot be null
+CRITICAL - 2021-11-13 11:12:25 --> Column 'first_name' cannot be null
+#0 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `tb...')
+#1 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Model.php(259): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\BaseModel.php(774): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Model.php(686): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\app\Controllers\AdminController.php(99): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(928): App\Controllers\AdminController->addUser()
+#9 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#10 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2021-11-13 11:12:28 --> Column 'first_name' cannot be null
+CRITICAL - 2021-11-13 11:12:28 --> Column 'first_name' cannot be null
+#0 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `tb...')
+#1 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Model.php(259): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\BaseModel.php(774): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Model.php(686): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\app\Controllers\AdminController.php(99): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(928): App\Controllers\AdminController->addUser()
+#9 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#10 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2021-11-13 11:12:29 --> Column 'first_name' cannot be null
+CRITICAL - 2021-11-13 11:12:29 --> Column 'first_name' cannot be null
+#0 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `tb...')
+#1 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Model.php(259): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\BaseModel.php(774): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Model.php(686): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\app\Controllers\AdminController.php(99): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(928): App\Controllers\AdminController->addUser()
+#9 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#10 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2021-11-13 11:12:29 --> Column 'first_name' cannot be null
+CRITICAL - 2021-11-13 11:12:29 --> Column 'first_name' cannot be null
+#0 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `tb...')
+#1 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Model.php(259): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\BaseModel.php(774): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Model.php(686): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\app\Controllers\AdminController.php(99): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(928): App\Controllers\AdminController->addUser()
+#9 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#10 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2021-11-13 11:12:29 --> Column 'first_name' cannot be null
+CRITICAL - 2021-11-13 11:12:29 --> Column 'first_name' cannot be null
+#0 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `tb...')
+#1 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Model.php(259): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\BaseModel.php(774): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Model.php(686): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\app\Controllers\AdminController.php(99): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(928): App\Controllers\AdminController->addUser()
+#9 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#10 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2021-11-13 11:12:29 --> Column 'first_name' cannot be null
+CRITICAL - 2021-11-13 11:12:29 --> Column 'first_name' cannot be null
+#0 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `tb...')
+#1 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Model.php(259): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\BaseModel.php(774): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Model.php(686): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\app\Controllers\AdminController.php(99): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(928): App\Controllers\AdminController->addUser()
+#9 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#10 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2021-11-13 11:12:41 --> Column 'first_name' cannot be null
+CRITICAL - 2021-11-13 11:12:41 --> Column 'first_name' cannot be null
+#0 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `tb...')
+#1 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Model.php(259): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\BaseModel.php(774): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Model.php(686): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\app\Controllers\AdminController.php(99): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(928): App\Controllers\AdminController->addUser()
+#9 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#10 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2021-11-13 11:12:43 --> Column 'first_name' cannot be null
+CRITICAL - 2021-11-13 11:12:43 --> Column 'first_name' cannot be null
+#0 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `tb...')
+#1 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Model.php(259): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\BaseModel.php(774): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Model.php(686): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\app\Controllers\AdminController.php(99): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(928): App\Controllers\AdminController->addUser()
+#9 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#10 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2021-11-13 11:12:43 --> Column 'first_name' cannot be null
+CRITICAL - 2021-11-13 11:12:43 --> Column 'first_name' cannot be null
+#0 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `tb...')
+#1 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Model.php(259): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\BaseModel.php(774): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Model.php(686): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\app\Controllers\AdminController.php(99): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(928): App\Controllers\AdminController->addUser()
+#9 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#10 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2021-11-13 11:12:43 --> Column 'first_name' cannot be null
+CRITICAL - 2021-11-13 11:12:43 --> Column 'first_name' cannot be null
+#0 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `tb...')
+#1 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Model.php(259): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\BaseModel.php(774): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Model.php(686): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\app\Controllers\AdminController.php(99): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(928): App\Controllers\AdminController->addUser()
+#9 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#10 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2021-11-13 11:12:43 --> Column 'first_name' cannot be null
+CRITICAL - 2021-11-13 11:12:43 --> Column 'first_name' cannot be null
+#0 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `tb...')
+#1 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Model.php(259): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\BaseModel.php(774): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Model.php(686): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\app\Controllers\AdminController.php(99): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(928): App\Controllers\AdminController->addUser()
+#9 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#10 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2021-11-13 11:13:25 --> Column 'first_name' cannot be null
+CRITICAL - 2021-11-13 11:13:25 --> Column 'first_name' cannot be null
+#0 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `tb...')
+#1 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Model.php(259): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\BaseModel.php(774): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Model.php(686): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\app\Controllers\AdminController.php(99): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(928): App\Controllers\AdminController->addUser()
+#9 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#10 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2021-11-13 11:13:28 --> Column 'first_name' cannot be null
+CRITICAL - 2021-11-13 11:13:28 --> Column 'first_name' cannot be null
+#0 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `tb...')
+#1 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Model.php(259): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\BaseModel.php(774): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Model.php(686): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\app\Controllers\AdminController.php(99): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(928): App\Controllers\AdminController->addUser()
+#9 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#10 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2021-11-13 11:13:49 --> Column 'first_name' cannot be null
+CRITICAL - 2021-11-13 11:13:49 --> Column 'first_name' cannot be null
+#0 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `tb...')
+#1 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Model.php(259): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\BaseModel.php(774): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Model.php(686): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\app\Controllers\AdminController.php(99): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(928): App\Controllers\AdminController->addUser()
+#9 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#10 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2021-11-13 11:13:50 --> Column 'first_name' cannot be null
+CRITICAL - 2021-11-13 11:13:50 --> Column 'first_name' cannot be null
+#0 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `tb...')
+#1 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Model.php(259): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\BaseModel.php(774): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Model.php(686): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\app\Controllers\AdminController.php(99): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(928): App\Controllers\AdminController->addUser()
+#9 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#10 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2021-11-13 11:30:58 --> Class "App\Controllers\Hash" not found
+#0 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(928): App\Controllers\AdminController->updateUser()
+#1 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#2 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-11-13 11:31:00 --> Class "App\Controllers\Hash" not found
+#0 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(928): App\Controllers\AdminController->updateUser()
+#1 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#2 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-11-13 11:31:03 --> Class "App\Controllers\Hash" not found
+#0 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(928): App\Controllers\AdminController->updateUser()
+#1 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#2 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-11-13 11:31:04 --> Class "App\Controllers\Hash" not found
+#0 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(928): App\Controllers\AdminController->updateUser()
+#1 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#2 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-11-13 11:31:16 --> Class "App\Controllers\Hash" not found
+#0 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(928): App\Controllers\AdminController->updateUser()
+#1 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#2 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-11-13 11:31:16 --> Class "App\Controllers\Hash" not found
+#0 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(928): App\Controllers\AdminController->updateUser()
+#1 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#2 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-11-13 11:31:16 --> Class "App\Controllers\Hash" not found
+#0 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(928): App\Controllers\AdminController->updateUser()
+#1 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#2 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-11-13 11:31:17 --> Class "App\Controllers\Hash" not found
+#0 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(928): App\Controllers\AdminController->updateUser()
+#1 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#2 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-11-13 11:31:17 --> Class "App\Controllers\Hash" not found
+#0 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(928): App\Controllers\AdminController->updateUser()
+#1 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#2 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-11-13 11:31:20 --> Class "App\Controllers\Hash" not found
+#0 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(928): App\Controllers\AdminController->updateUser()
+#1 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#2 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-11-13 11:31:20 --> Class "App\Controllers\Hash" not found
+#0 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(928): App\Controllers\AdminController->updateUser()
+#1 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#2 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-11-13 11:31:20 --> Class "App\Controllers\Hash" not found
+#0 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(928): App\Controllers\AdminController->updateUser()
+#1 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#2 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-11-13 11:31:20 --> Class "App\Controllers\Hash" not found
+#0 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(928): App\Controllers\AdminController->updateUser()
+#1 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#2 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-11-13 11:31:21 --> Class "App\Controllers\Hash" not found
+#0 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(928): App\Controllers\AdminController->updateUser()
+#1 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#2 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-11-13 11:31:21 --> Class "App\Controllers\Hash" not found
+#0 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(928): App\Controllers\AdminController->updateUser()
+#1 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#2 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-11-13 11:31:21 --> Class "App\Controllers\Hash" not found
+#0 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(928): App\Controllers\AdminController->updateUser()
+#1 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#2 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-11-13 11:31:22 --> Class "App\Controllers\Hash" not found
+#0 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(928): App\Controllers\AdminController->updateUser()
+#1 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#2 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-11-13 11:31:22 --> Class "App\Controllers\Hash" not found
+#0 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(928): App\Controllers\AdminController->updateUser()
+#1 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#2 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-11-13 11:31:23 --> Class "App\Controllers\Hash" not found
+#0 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(928): App\Controllers\AdminController->updateUser()
+#1 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#2 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-11-13 11:31:23 --> Class "App\Controllers\Hash" not found
+#0 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(928): App\Controllers\AdminController->updateUser()
+#1 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#2 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-11-13 11:31:26 --> Class "App\Controllers\Hash" not found
+#0 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(928): App\Controllers\AdminController->updateUser()
+#1 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#2 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-11-13 11:31:26 --> Class "App\Controllers\Hash" not found
+#0 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(928): App\Controllers\AdminController->updateUser()
+#1 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#2 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-11-13 11:31:57 --> Class "App\Controllers\Hash" not found
+#0 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(928): App\Controllers\AdminController->updateUser()
+#1 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#2 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-11-13 11:31:57 --> Class "App\Controllers\Hash" not found
+#0 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(928): App\Controllers\AdminController->updateUser()
+#1 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#2 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-11-13 11:32:05 --> Class "App\Controllers\Hash" not found
+#0 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(928): App\Controllers\AdminController->updateUser()
+#1 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#2 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-11-13 11:32:06 --> Class "App\Controllers\Hash" not found
+#0 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(928): App\Controllers\AdminController->updateUser()
+#1 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#2 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-11-13 11:32:06 --> Class "App\Controllers\Hash" not found
+#0 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(928): App\Controllers\AdminController->updateUser()
+#1 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#2 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-11-13 11:32:06 --> Class "App\Controllers\Hash" not found
+#0 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(928): App\Controllers\AdminController->updateUser()
+#1 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#2 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+ERROR - 2021-11-13 11:34:11 --> Column 'first_name' cannot be null
+CRITICAL - 2021-11-13 11:34:11 --> Column 'first_name' cannot be null
+#0 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `tb...')
+#1 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Model.php(259): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\BaseModel.php(774): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Model.php(686): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\app\Controllers\AdminController.php(99): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(928): App\Controllers\AdminController->addUser()
+#9 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#10 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2021-11-13 11:34:12 --> Column 'first_name' cannot be null
+CRITICAL - 2021-11-13 11:34:12 --> Column 'first_name' cannot be null
+#0 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `tb...')
+#1 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Model.php(259): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\BaseModel.php(774): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Model.php(686): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\app\Controllers\AdminController.php(99): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(928): App\Controllers\AdminController->addUser()
+#9 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#10 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2021-11-13 11:34:12 --> Column 'first_name' cannot be null
+CRITICAL - 2021-11-13 11:34:12 --> Column 'first_name' cannot be null
+#0 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `tb...')
+#1 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Model.php(259): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\BaseModel.php(774): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Model.php(686): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\app\Controllers\AdminController.php(99): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(928): App\Controllers\AdminController->addUser()
+#9 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#10 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2021-11-13 11:34:12 --> Column 'first_name' cannot be null
+CRITICAL - 2021-11-13 11:34:12 --> Column 'first_name' cannot be null
+#0 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `tb...')
+#1 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Model.php(259): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\BaseModel.php(774): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Model.php(686): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\app\Controllers\AdminController.php(99): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(928): App\Controllers\AdminController->addUser()
+#9 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#10 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2021-11-13 11:37:06 --> Class "App\Controllers\Hash" not found
+#0 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(928): App\Controllers\AdminController->updateUser()
+#1 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#2 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-11-13 11:37:09 --> Class "App\Controllers\Hash" not found
+#0 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(928): App\Controllers\AdminController->updateUser()
+#1 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#2 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-11-13 11:37:09 --> Class "App\Controllers\Hash" not found
+#0 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(928): App\Controllers\AdminController->updateUser()
+#1 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#2 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-11-13 11:37:14 --> Class "App\Controllers\Hash" not found
+#0 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(928): App\Controllers\AdminController->updateUser()
+#1 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#2 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-11-13 11:37:26 --> Class "App\Controllers\Hash" not found
+#0 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(928): App\Controllers\AdminController->updateUser()
+#1 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#2 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-11-13 11:37:26 --> Class "App\Controllers\Hash" not found
+#0 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(928): App\Controllers\AdminController->updateUser()
+#1 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#2 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-11-13 11:37:26 --> Class "App\Controllers\Hash" not found
+#0 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(928): App\Controllers\AdminController->updateUser()
+#1 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#2 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-11-13 11:37:27 --> Class "App\Controllers\Hash" not found
+#0 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(928): App\Controllers\AdminController->updateUser()
+#1 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#2 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-11-13 11:37:27 --> Class "App\Controllers\Hash" not found
+#0 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(928): App\Controllers\AdminController->updateUser()
+#1 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#2 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-11-13 11:37:27 --> Class "App\Controllers\Hash" not found
+#0 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(928): App\Controllers\AdminController->updateUser()
+#1 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#2 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-11-13 11:37:27 --> Class "App\Controllers\Hash" not found
+#0 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(928): App\Controllers\AdminController->updateUser()
+#1 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#2 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-11-13 11:37:27 --> Class "App\Controllers\Hash" not found
+#0 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(928): App\Controllers\AdminController->updateUser()
+#1 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#2 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-11-13 11:37:28 --> Class "App\Controllers\Hash" not found
+#0 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(928): App\Controllers\AdminController->updateUser()
+#1 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#2 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-11-13 11:37:30 --> Class "App\Controllers\Hash" not found
+#0 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(928): App\Controllers\AdminController->updateUser()
+#1 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#2 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-11-13 11:41:31 --> Class "App\Controllers\Hash" not found
+#0 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(928): App\Controllers\AdminController->updateUser()
+#1 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#2 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-11-13 11:41:32 --> Class "App\Controllers\Hash" not found
+#0 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(928): App\Controllers\AdminController->updateUser()
+#1 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#2 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-11-13 11:41:32 --> Class "App\Controllers\Hash" not found
+#0 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(928): App\Controllers\AdminController->updateUser()
+#1 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#2 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-11-13 11:41:33 --> Class "App\Controllers\Hash" not found
+#0 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(928): App\Controllers\AdminController->updateUser()
+#1 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#2 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-11-13 11:41:33 --> Class "App\Controllers\Hash" not found
+#0 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(928): App\Controllers\AdminController->updateUser()
+#1 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#2 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-11-13 11:41:34 --> Class "App\Controllers\Hash" not found
+#0 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(928): App\Controllers\AdminController->updateUser()
+#1 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#2 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-11-13 11:41:34 --> Class "App\Controllers\Hash" not found
+#0 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(928): App\Controllers\AdminController->updateUser()
+#1 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#2 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-11-13 11:41:34 --> Class "App\Controllers\Hash" not found
+#0 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(928): App\Controllers\AdminController->updateUser()
+#1 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#2 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-11-13 11:41:34 --> Class "App\Controllers\Hash" not found
+#0 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(928): App\Controllers\AdminController->updateUser()
+#1 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#2 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-11-13 11:41:35 --> Class "App\Controllers\Hash" not found
+#0 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(928): App\Controllers\AdminController->updateUser()
+#1 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#2 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-11-13 11:41:35 --> Class "App\Controllers\Hash" not found
+#0 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(928): App\Controllers\AdminController->updateUser()
+#1 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#2 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-11-13 11:41:36 --> Class "App\Controllers\Hash" not found
+#0 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(928): App\Controllers\AdminController->updateUser()
+#1 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#2 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-11-13 11:41:36 --> Class "App\Controllers\Hash" not found
+#0 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(928): App\Controllers\AdminController->updateUser()
+#1 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#2 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-11-13 11:41:36 --> Class "App\Controllers\Hash" not found
+#0 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(928): App\Controllers\AdminController->updateUser()
+#1 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#2 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-11-13 11:41:36 --> Class "App\Controllers\Hash" not found
+#0 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(928): App\Controllers\AdminController->updateUser()
+#1 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#2 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-11-13 11:41:37 --> Class "App\Controllers\Hash" not found
+#0 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(928): App\Controllers\AdminController->updateUser()
+#1 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#2 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-11-13 11:41:37 --> Class "App\Controllers\Hash" not found
+#0 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(928): App\Controllers\AdminController->updateUser()
+#1 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#2 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-11-13 11:56:30 --> Undefined variable $data
+#0 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\app\Controllers\AdminController.php(256): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 256)
+#1 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(928): App\Controllers\AdminController->updateUser()
+#2 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#3 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-11-13 11:56:31 --> Undefined variable $data
+#0 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\app\Controllers\AdminController.php(256): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 256)
+#1 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(928): App\Controllers\AdminController->updateUser()
+#2 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#3 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-11-13 11:56:39 --> Undefined variable $data
+#0 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\app\Controllers\AdminController.php(256): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 256)
+#1 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(928): App\Controllers\AdminController->updateUser()
+#2 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#3 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-11-13 11:56:40 --> Undefined variable $data
+#0 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\app\Controllers\AdminController.php(256): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 256)
+#1 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(928): App\Controllers\AdminController->updateUser()
+#2 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#3 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-11-13 11:56:40 --> Undefined variable $data
+#0 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\app\Controllers\AdminController.php(256): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 256)
+#1 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(928): App\Controllers\AdminController->updateUser()
+#2 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#3 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-11-13 11:56:41 --> Undefined variable $data
+#0 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\app\Controllers\AdminController.php(256): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 256)
+#1 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(928): App\Controllers\AdminController->updateUser()
+#2 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#3 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-11-13 11:56:41 --> Undefined variable $data
+#0 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\app\Controllers\AdminController.php(256): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 256)
+#1 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(928): App\Controllers\AdminController->updateUser()
+#2 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#3 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-11-13 11:56:41 --> Undefined variable $data
+#0 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\app\Controllers\AdminController.php(256): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 256)
+#1 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(928): App\Controllers\AdminController->updateUser()
+#2 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#3 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-11-13 11:56:41 --> Undefined variable $data
+#0 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\app\Controllers\AdminController.php(256): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 256)
+#1 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(928): App\Controllers\AdminController->updateUser()
+#2 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#3 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-11-13 11:56:42 --> Undefined variable $data
+#0 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\app\Controllers\AdminController.php(256): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 256)
+#1 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(928): App\Controllers\AdminController->updateUser()
+#2 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#3 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-11-13 11:56:42 --> Undefined variable $data
+#0 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\app\Controllers\AdminController.php(256): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 256)
+#1 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(928): App\Controllers\AdminController->updateUser()
+#2 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#3 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-11-13 11:56:44 --> Undefined variable $data
+#0 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\app\Controllers\AdminController.php(256): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 256)
+#1 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(928): App\Controllers\AdminController->updateUser()
+#2 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#3 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2021-11-13 13:41:51 --> Column 'first_name' cannot be null
+CRITICAL - 2021-11-13 13:41:51 --> Column 'first_name' cannot be null
+#0 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `tb...')
+#1 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Model.php(259): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\BaseModel.php(774): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Model.php(686): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\app\Controllers\AdminController.php(101): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(928): App\Controllers\AdminController->addUser()
+#9 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#10 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2021-11-13 13:41:52 --> Column 'first_name' cannot be null
+CRITICAL - 2021-11-13 13:41:52 --> Column 'first_name' cannot be null
+#0 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `tb...')
+#1 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Model.php(259): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\BaseModel.php(774): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Model.php(686): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\app\Controllers\AdminController.php(101): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(928): App\Controllers\AdminController->addUser()
+#9 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#10 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2021-11-13 13:41:53 --> Column 'first_name' cannot be null
+CRITICAL - 2021-11-13 13:41:53 --> Column 'first_name' cannot be null
+#0 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `tb...')
+#1 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Model.php(259): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\BaseModel.php(774): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Model.php(686): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\app\Controllers\AdminController.php(101): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(928): App\Controllers\AdminController->addUser()
+#9 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#10 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2021-11-13 13:41:53 --> Column 'first_name' cannot be null
+CRITICAL - 2021-11-13 13:41:53 --> Column 'first_name' cannot be null
+#0 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `tb...')
+#1 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Model.php(259): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\BaseModel.php(774): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Model.php(686): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\app\Controllers\AdminController.php(101): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(928): App\Controllers\AdminController->addUser()
+#9 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#10 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2021-11-13 13:41:54 --> Column 'first_name' cannot be null
+CRITICAL - 2021-11-13 13:41:54 --> Column 'first_name' cannot be null
+#0 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `tb...')
+#1 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Model.php(259): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\BaseModel.php(774): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Model.php(686): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\app\Controllers\AdminController.php(101): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(928): App\Controllers\AdminController->addUser()
+#9 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#10 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2021-11-13 13:41:55 --> Column 'first_name' cannot be null
+CRITICAL - 2021-11-13 13:41:55 --> Column 'first_name' cannot be null
+#0 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `tb...')
+#1 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Model.php(259): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\BaseModel.php(774): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Model.php(686): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\app\Controllers\AdminController.php(101): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(928): App\Controllers\AdminController->addUser()
+#9 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#10 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2021-11-13 13:45:37 --> Cannot add or update a child row: a foreign key constraint fails (`ecommerce`.`tbl_users`, CONSTRAINT `tbl_users_ibfk_1` FOREIGN KEY (`role`) REFERENCES `tbl_roles` (`role_id`))
+CRITICAL - 2021-11-13 13:45:37 --> Cannot add or update a child row: a foreign key constraint fails (`ecommerce`.`tbl_users`, CONSTRAINT `tbl_users_ibfk_1` FOREIGN KEY (`role`) REFERENCES `tbl_roles` (`role_id`))
+#0 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `tb...')
+#1 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Model.php(259): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\BaseModel.php(774): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Model.php(686): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\app\Controllers\AdminController.php(102): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(928): App\Controllers\AdminController->addUser()
+#9 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#10 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\Codeigniter-4-Ajax-CRUD-with-Server-Side-DataTable-master\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2021-11-13 20:43:25 --> Call to undefined function set_radio()
+#0 C:\xampp\htdocs\thewardrobeadmin1\system\View\View.php(230): include()
+#1 C:\xampp\htdocs\thewardrobeadmin1\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\thewardrobeadmin1\system\Common.php(1271): CodeIgniter\View\View->render('dashboard/users', Array, true)
+#3 C:\xampp\htdocs\thewardrobeadmin1\app\Controllers\AdminController.php(28): view('dashboard/users', Array)
+#4 C:\xampp\htdocs\thewardrobeadmin1\system\CodeIgniter.php(928): App\Controllers\AdminController->users()
+#5 C:\xampp\htdocs\thewardrobeadmin1\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#6 C:\xampp\htdocs\thewardrobeadmin1\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\thewardrobeadmin1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\thewardrobeadmin1\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-11-13 22:36:17 --> Invalid file: dashboard/categories.php
+#0 C:\xampp\htdocs\thewardrobeadmin1\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboard/categ...')
+#1 C:\xampp\htdocs\thewardrobeadmin1\system\Common.php(1271): CodeIgniter\View\View->render('dashboard/categ...', Array, true)
+#2 C:\xampp\htdocs\thewardrobeadmin1\app\Controllers\AdminController.php(276): view('dashboard/categ...', Array)
+#3 C:\xampp\htdocs\thewardrobeadmin1\system\CodeIgniter.php(928): App\Controllers\AdminController->categories()
+#4 C:\xampp\htdocs\thewardrobeadmin1\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#5 C:\xampp\htdocs\thewardrobeadmin1\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\thewardrobeadmin1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\thewardrobeadmin1\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-11-13 23:26:31 --> Invalid file: modals/editCategoryModal.php
+#0 C:\xampp\htdocs\thewardrobeadmin1\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('modals/editCate...')
+#1 C:\xampp\htdocs\thewardrobeadmin1\system\View\View.php(487): CodeIgniter\View\View->render('modals/editCate...', NULL, true)
+#2 C:\xampp\htdocs\thewardrobeadmin1\app\Views\dashboard\categories.php(39): CodeIgniter\View\View->include('modals/editCate...')
+#3 C:\xampp\htdocs\thewardrobeadmin1\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\thewardrobeadmin1\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 C:\xampp\htdocs\thewardrobeadmin1\system\Common.php(1271): CodeIgniter\View\View->render('dashboard/categ...', Array, true)
+#6 C:\xampp\htdocs\thewardrobeadmin1\app\Controllers\AdminController.php(276): view('dashboard/categ...', Array)
+#7 C:\xampp\htdocs\thewardrobeadmin1\system\CodeIgniter.php(928): App\Controllers\AdminController->categories()
+#8 C:\xampp\htdocs\thewardrobeadmin1\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#9 C:\xampp\htdocs\thewardrobeadmin1\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\thewardrobeadmin1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\thewardrobeadmin1\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2021-11-13 23:44:25 --> Invalid file: modals/editCategoryModal.php
+#0 C:\xampp\htdocs\thewardrobeadmin1\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('modals/editCate...')
+#1 C:\xampp\htdocs\thewardrobeadmin1\system\View\View.php(487): CodeIgniter\View\View->render('modals/editCate...', NULL, true)
+#2 C:\xampp\htdocs\thewardrobeadmin1\app\Views\dashboard\categories.php(39): CodeIgniter\View\View->include('modals/editCate...')
+#3 C:\xampp\htdocs\thewardrobeadmin1\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\thewardrobeadmin1\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 C:\xampp\htdocs\thewardrobeadmin1\system\Common.php(1271): CodeIgniter\View\View->render('dashboard/categ...', Array, true)
+#6 C:\xampp\htdocs\thewardrobeadmin1\app\Controllers\AdminController.php(280): view('dashboard/categ...', Array)
+#7 C:\xampp\htdocs\thewardrobeadmin1\system\CodeIgniter.php(928): App\Controllers\AdminController->categories()
+#8 C:\xampp\htdocs\thewardrobeadmin1\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#9 C:\xampp\htdocs\thewardrobeadmin1\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\thewardrobeadmin1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\thewardrobeadmin1\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#12 {main}
